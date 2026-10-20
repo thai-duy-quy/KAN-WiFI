@@ -1,0 +1,5 @@
+# Install PyTorch with CUDA first (we use torch 2.1.2 + cu121), e.g.
+#   pip install torch==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+numpy==1.26.4
+scikit-learn==1.6.1
+matplotlib==3.9.4

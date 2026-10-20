@@ -1,0 +1,343 @@
+﻿device=cuda  train=(2400, 7650)  val=(600, 7650)  n_input=7650  classes=6
+
+===== efficientkan  (4,899,840 params) =====
+epoch   1/30  train_loss=1.1950  train_acc=0.4666  val_loss=0.7886  val_acc=0.6583  val_f1=0.6627
+epoch   2/30  train_loss=0.5625  train_acc=0.7665  val_loss=0.4934  val_acc=0.7883  val_f1=0.7964
+epoch   3/30  train_loss=0.3125  train_acc=0.8822  val_loss=0.3561  val_acc=0.8700  val_f1=0.8721
+epoch   4/30  train_loss=0.1980  train_acc=0.9202  val_loss=0.3052  val_acc=0.9050  val_f1=0.9038
+epoch   5/30  train_loss=0.1360  train_acc=0.9468  val_loss=0.2915  val_acc=0.8500  val_f1=0.8562
+epoch   6/30  train_loss=0.0909  train_acc=0.9569  val_loss=0.2296  val_acc=0.9150  val_f1=0.9143
+epoch   7/30  train_loss=0.0724  train_acc=0.9717  val_loss=0.2154  val_acc=0.9300  val_f1=0.9280
+epoch   8/30  train_loss=0.0468  train_acc=0.9802  val_loss=0.2035  val_acc=0.9183  val_f1=0.9174
+epoch   9/30  train_loss=0.0368  train_acc=0.9848  val_loss=0.2000  val_acc=0.9350  val_f1=0.9316
+epoch  10/30  train_loss=0.0276  train_acc=0.9924  val_loss=0.1925  val_acc=0.9417  val_f1=0.9377
+epoch  11/30  train_loss=0.0233  train_acc=0.9920  val_loss=0.1966  val_acc=0.9400  val_f1=0.9352
+epoch  12/30  train_loss=0.0186  train_acc=0.9928  val_loss=0.1899  val_acc=0.9433  val_f1=0.9396
+epoch  13/30  train_loss=0.0169  train_acc=0.9954  val_loss=0.1986  val_acc=0.9200  val_f1=0.9198
+epoch  14/30  train_loss=0.0133  train_acc=0.9975  val_loss=0.1979  val_acc=0.9383  val_f1=0.9354
+epoch  15/30  train_loss=0.0117  train_acc=0.9962  val_loss=0.1885  val_acc=0.9383  val_f1=0.9351
+epoch  16/30  train_loss=0.0097  train_acc=0.9987  val_loss=0.1950  val_acc=0.9417  val_f1=0.9391
+epoch  17/30  train_loss=0.0083  train_acc=0.9992  val_loss=0.1937  val_acc=0.9417  val_f1=0.9384
+epoch  18/30  train_loss=0.0079  train_acc=0.9996  val_loss=0.1947  val_acc=0.9383  val_f1=0.9349
+epoch  19/30  train_loss=0.0075  train_acc=0.9987  val_loss=0.1967  val_acc=0.9383  val_f1=0.9349
+epoch  20/30  train_loss=0.0069  train_acc=0.9996  val_loss=0.1983  val_acc=0.9383  val_f1=0.9354
+epoch  21/30  train_loss=0.0058  train_acc=0.9996  val_loss=0.1941  val_acc=0.9433  val_f1=0.9399
+epoch  22/30  train_loss=0.0055  train_acc=0.9996  val_loss=0.1945  val_acc=0.9400  val_f1=0.9364
+epoch  23/30  train_loss=0.0052  train_acc=0.9996  val_loss=0.1953  val_acc=0.9400  val_f1=0.9364
+epoch  24/30  train_loss=0.0050  train_acc=0.9996  val_loss=0.1966  val_acc=0.9400  val_f1=0.9369
+epoch  25/30  train_loss=0.0051  train_acc=0.9996  val_loss=0.1949  val_acc=0.9400  val_f1=0.9364
+epoch  26/30  train_loss=0.0048  train_acc=0.9996  val_loss=0.1953  val_acc=0.9400  val_f1=0.9364
+epoch  27/30  train_loss=0.0048  train_acc=0.9996  val_loss=0.1954  val_acc=0.9417  val_f1=0.9384
+epoch  28/30  train_loss=0.0048  train_acc=0.9996  val_loss=0.1949  val_acc=0.9417  val_f1=0.9384
+epoch  29/30  train_loss=0.0047  train_acc=0.9996  val_loss=0.1951  val_acc=0.9417  val_f1=0.9384
+epoch  30/30  train_loss=0.0047  train_acc=0.9996  val_loss=0.1951  val_acc=0.9417  val_f1=0.9384
+best efficientkan: {'val_acc': 0.9433333333333334, 'val_f1': 0.9396277063761328, 'epoch': 12, 'params': 4899840, 'train_time_s': 9.6}
+
+===== fastkan  (4,425,354 params) =====
+epoch   1/30  train_loss=1.8581  train_acc=0.4979  val_loss=0.7579  val_acc=0.7150  val_f1=0.6926
+epoch   2/30  train_loss=0.4483  train_acc=0.8235  val_loss=0.4623  val_acc=0.8217  val_f1=0.8144
+epoch   3/30  train_loss=0.2483  train_acc=0.9117  val_loss=0.3455  val_acc=0.8800  val_f1=0.8728
+epoch   4/30  train_loss=0.1461  train_acc=0.9552  val_loss=0.3034  val_acc=0.8817  val_f1=0.8767
+epoch   5/30  train_loss=0.0964  train_acc=0.9692  val_loss=0.2664  val_acc=0.9100  val_f1=0.9067
+epoch   6/30  train_loss=0.0524  train_acc=0.9865  val_loss=0.2422  val_acc=0.9183  val_f1=0.9130
+epoch   7/30  train_loss=0.0353  train_acc=0.9928  val_loss=0.2228  val_acc=0.9300  val_f1=0.9261
+epoch   8/30  train_loss=0.0258  train_acc=0.9949  val_loss=0.2525  val_acc=0.9167  val_f1=0.9138
+epoch   9/30  train_loss=0.0214  train_acc=0.9958  val_loss=0.2219  val_acc=0.9283  val_f1=0.9242
+epoch  10/30  train_loss=0.0167  train_acc=0.9975  val_loss=0.2429  val_acc=0.9150  val_f1=0.9141
+epoch  11/30  train_loss=0.0119  train_acc=0.9996  val_loss=0.2181  val_acc=0.9250  val_f1=0.9221
+epoch  12/30  train_loss=0.0096  train_acc=0.9996  val_loss=0.2143  val_acc=0.9283  val_f1=0.9256
+epoch  13/30  train_loss=0.0082  train_acc=0.9996  val_loss=0.2187  val_acc=0.9267  val_f1=0.9221
+epoch  14/30  train_loss=0.0076  train_acc=1.0000  val_loss=0.2100  val_acc=0.9283  val_f1=0.9251
+epoch  15/30  train_loss=0.0064  train_acc=1.0000  val_loss=0.2112  val_acc=0.9317  val_f1=0.9277
+epoch  16/30  train_loss=0.0059  train_acc=1.0000  val_loss=0.2195  val_acc=0.9300  val_f1=0.9253
+epoch  17/30  train_loss=0.0056  train_acc=1.0000  val_loss=0.2174  val_acc=0.9317  val_f1=0.9269
+epoch  18/30  train_loss=0.0051  train_acc=1.0000  val_loss=0.2143  val_acc=0.9333  val_f1=0.9300
+epoch  19/30  train_loss=0.0048  train_acc=1.0000  val_loss=0.2226  val_acc=0.9317  val_f1=0.9291
+epoch  20/30  train_loss=0.0046  train_acc=1.0000  val_loss=0.2139  val_acc=0.9350  val_f1=0.9314
+epoch  21/30  train_loss=0.0043  train_acc=1.0000  val_loss=0.2137  val_acc=0.9283  val_f1=0.9239
+epoch  22/30  train_loss=0.0041  train_acc=1.0000  val_loss=0.2201  val_acc=0.9300  val_f1=0.9255
+epoch  23/30  train_loss=0.0040  train_acc=1.0000  val_loss=0.2128  val_acc=0.9283  val_f1=0.9238
+epoch  24/30  train_loss=0.0038  train_acc=1.0000  val_loss=0.2145  val_acc=0.9300  val_f1=0.9252
+epoch  25/30  train_loss=0.0038  train_acc=1.0000  val_loss=0.2162  val_acc=0.9300  val_f1=0.9249
+epoch  26/30  train_loss=0.0038  train_acc=1.0000  val_loss=0.2136  val_acc=0.9283  val_f1=0.9239
+epoch  27/30  train_loss=0.0037  train_acc=1.0000  val_loss=0.2150  val_acc=0.9300  val_f1=0.9252
+epoch  28/30  train_loss=0.0037  train_acc=1.0000  val_loss=0.2149  val_acc=0.9300  val_f1=0.9252
+epoch  29/30  train_loss=0.0037  train_acc=1.0000  val_loss=0.2147  val_acc=0.9300  val_f1=0.9252
+epoch  30/30  train_loss=0.0036  train_acc=1.0000  val_loss=0.2147  val_acc=0.9300  val_f1=0.9252
+best fastkan: {'val_acc': 0.935, 'val_f1': 0.9314469439276284, 'epoch': 20, 'params': 4425354, 'train_time_s': 6.6}
+
+===== fasterkan  (3,935,300 params) =====
+epoch   1/30  train_loss=1.5914  train_acc=0.3163  val_loss=1.4334  val_acc=0.3517  val_f1=0.3030
+epoch   2/30  train_loss=1.2880  train_acc=0.4806  val_loss=1.1057  val_acc=0.5850  val_f1=0.5544
+epoch   3/30  train_loss=0.9148  train_acc=0.6807  val_loss=0.7424  val_acc=0.7517  val_f1=0.7422
+epoch   4/30  train_loss=0.5463  train_acc=0.8159  val_loss=0.5192  val_acc=0.8367  val_f1=0.8257
+epoch   5/30  train_loss=0.3208  train_acc=0.8936  val_loss=0.3949  val_acc=0.8517  val_f1=0.8477
+epoch   6/30  train_loss=0.1992  train_acc=0.9333  val_loss=0.3137  val_acc=0.9017  val_f1=0.8911
+epoch   7/30  train_loss=0.1201  train_acc=0.9599  val_loss=0.2492  val_acc=0.9250  val_f1=0.9141
+epoch   8/30  train_loss=0.0777  train_acc=0.9810  val_loss=0.2395  val_acc=0.9233  val_f1=0.9161
+epoch   9/30  train_loss=0.0560  train_acc=0.9802  val_loss=0.2179  val_acc=0.9133  val_f1=0.9080
+epoch  10/30  train_loss=0.0404  train_acc=0.9878  val_loss=0.2628  val_acc=0.9200  val_f1=0.9091
+epoch  11/30  train_loss=0.0327  train_acc=0.9911  val_loss=0.2150  val_acc=0.9333  val_f1=0.9226
+epoch  12/30  train_loss=0.0260  train_acc=0.9932  val_loss=0.2371  val_acc=0.9317  val_f1=0.9251
+epoch  13/30  train_loss=0.0195  train_acc=0.9975  val_loss=0.2099  val_acc=0.9367  val_f1=0.9256
+epoch  14/30  train_loss=0.0139  train_acc=0.9996  val_loss=0.2007  val_acc=0.9467  val_f1=0.9369
+epoch  15/30  train_loss=0.0173  train_acc=0.9932  val_loss=0.2412  val_acc=0.9333  val_f1=0.9273
+epoch  16/30  train_loss=0.0187  train_acc=0.9941  val_loss=0.2047  val_acc=0.9450  val_f1=0.9348
+epoch  17/30  train_loss=0.0097  train_acc=1.0000  val_loss=0.2054  val_acc=0.9500  val_f1=0.9423
+epoch  18/30  train_loss=0.0077  train_acc=1.0000  val_loss=0.2011  val_acc=0.9467  val_f1=0.9374
+epoch  19/30  train_loss=0.0067  train_acc=1.0000  val_loss=0.2048  val_acc=0.9467  val_f1=0.9371
+epoch  20/30  train_loss=0.0065  train_acc=1.0000  val_loss=0.2005  val_acc=0.9483  val_f1=0.9395
+epoch  21/30  train_loss=0.0057  train_acc=1.0000  val_loss=0.2006  val_acc=0.9483  val_f1=0.9400
+epoch  22/30  train_loss=0.0052  train_acc=1.0000  val_loss=0.2046  val_acc=0.9450  val_f1=0.9349
+epoch  23/30  train_loss=0.0049  train_acc=1.0000  val_loss=0.2050  val_acc=0.9450  val_f1=0.9349
+epoch  24/30  train_loss=0.0047  train_acc=1.0000  val_loss=0.2021  val_acc=0.9450  val_f1=0.9357
+epoch  25/30  train_loss=0.0046  train_acc=1.0000  val_loss=0.2018  val_acc=0.9450  val_f1=0.9357
+epoch  26/30  train_loss=0.0045  train_acc=1.0000  val_loss=0.2033  val_acc=0.9467  val_f1=0.9371
+epoch  27/30  train_loss=0.0044  train_acc=1.0000  val_loss=0.2024  val_acc=0.9467  val_f1=0.9371
+epoch  28/30  train_loss=0.0044  train_acc=1.0000  val_loss=0.2024  val_acc=0.9450  val_f1=0.9349
+epoch  29/30  train_loss=0.0043  train_acc=1.0000  val_loss=0.2025  val_acc=0.9467  val_f1=0.9371
+epoch  30/30  train_loss=0.0043  train_acc=1.0000  val_loss=0.2025  val_acc=0.9467  val_f1=0.9371
+best fasterkan: {'val_acc': 0.95, 'val_f1': 0.9422935086072114, 'epoch': 17, 'params': 3935300, 'train_time_s': 5.7}
+
+===== bsrbf_kan  (4,425,284 params) =====
+epoch   1/30  train_loss=1.2397  train_acc=0.4789  val_loss=0.7855  val_acc=0.7050  val_f1=0.7135
+epoch   2/30  train_loss=0.4776  train_acc=0.8345  val_loss=0.4826  val_acc=0.8417  val_f1=0.8397
+epoch   3/30  train_loss=0.2322  train_acc=0.9316  val_loss=0.3364  val_acc=0.8750  val_f1=0.8716
+epoch   4/30  train_loss=0.1208  train_acc=0.9679  val_loss=0.2930  val_acc=0.9117  val_f1=0.9040
+epoch   5/30  train_loss=0.0664  train_acc=0.9873  val_loss=0.2637  val_acc=0.9017  val_f1=0.9007
+epoch   6/30  train_loss=0.0468  train_acc=0.9894  val_loss=0.2574  val_acc=0.8983  val_f1=0.8977
+epoch   7/30  train_loss=0.0444  train_acc=0.9852  val_loss=0.2401  val_acc=0.9250  val_f1=0.9174
+epoch   8/30  train_loss=0.0279  train_acc=0.9941  val_loss=0.2423  val_acc=0.9283  val_f1=0.9235
+epoch   9/30  train_loss=0.0208  train_acc=0.9945  val_loss=0.2534  val_acc=0.9150  val_f1=0.9084
+epoch  10/30  train_loss=0.0156  train_acc=0.9970  val_loss=0.2168  val_acc=0.9250  val_f1=0.9182
+epoch  11/30  train_loss=0.0108  train_acc=0.9996  val_loss=0.2203  val_acc=0.9350  val_f1=0.9296
+epoch  12/30  train_loss=0.0081  train_acc=1.0000  val_loss=0.2327  val_acc=0.9333  val_f1=0.9269
+epoch  13/30  train_loss=0.0076  train_acc=1.0000  val_loss=0.2161  val_acc=0.9350  val_f1=0.9296
+epoch  14/30  train_loss=0.0061  train_acc=1.0000  val_loss=0.2192  val_acc=0.9300  val_f1=0.9235
+epoch  15/30  train_loss=0.0054  train_acc=1.0000  val_loss=0.2173  val_acc=0.9350  val_f1=0.9296
+epoch  16/30  train_loss=0.0050  train_acc=1.0000  val_loss=0.2188  val_acc=0.9350  val_f1=0.9287
+epoch  17/30  train_loss=0.0045  train_acc=1.0000  val_loss=0.2209  val_acc=0.9317  val_f1=0.9250
+epoch  18/30  train_loss=0.0042  train_acc=1.0000  val_loss=0.2178  val_acc=0.9333  val_f1=0.9266
+epoch  19/30  train_loss=0.0039  train_acc=1.0000  val_loss=0.2226  val_acc=0.9333  val_f1=0.9263
+epoch  20/30  train_loss=0.0038  train_acc=1.0000  val_loss=0.2197  val_acc=0.9333  val_f1=0.9266
+epoch  21/30  train_loss=0.0036  train_acc=1.0000  val_loss=0.2186  val_acc=0.9350  val_f1=0.9284
+epoch  22/30  train_loss=0.0034  train_acc=1.0000  val_loss=0.2189  val_acc=0.9350  val_f1=0.9284
+epoch  23/30  train_loss=0.0033  train_acc=1.0000  val_loss=0.2199  val_acc=0.9333  val_f1=0.9263
+epoch  24/30  train_loss=0.0032  train_acc=1.0000  val_loss=0.2188  val_acc=0.9317  val_f1=0.9242
+epoch  25/30  train_loss=0.0032  train_acc=1.0000  val_loss=0.2192  val_acc=0.9317  val_f1=0.9242
+epoch  26/30  train_loss=0.0031  train_acc=1.0000  val_loss=0.2196  val_acc=0.9333  val_f1=0.9263
+epoch  27/30  train_loss=0.0031  train_acc=1.0000  val_loss=0.2193  val_acc=0.9333  val_f1=0.9263
+epoch  28/30  train_loss=0.0031  train_acc=1.0000  val_loss=0.2195  val_acc=0.9333  val_f1=0.9263
+epoch  29/30  train_loss=0.0031  train_acc=1.0000  val_loss=0.2196  val_acc=0.9333  val_f1=0.9263
+epoch  30/30  train_loss=0.0031  train_acc=1.0000  val_loss=0.2196  val_acc=0.9333  val_f1=0.9263
+best bsrbf_kan: {'val_acc': 0.935, 'val_f1': 0.929572674840057, 'epoch': 11, 'params': 4425284, 'train_time_s': 16.2}
+
+===== chebykan  (2,450,048 params) =====
+epoch   1/30  train_loss=1.6744  train_acc=0.2221  val_loss=1.5163  val_acc=0.3183  val_f1=0.3232
+epoch   2/30  train_loss=1.4234  train_acc=0.3716  val_loss=1.2832  val_acc=0.4617  val_f1=0.3980
+epoch   3/30  train_loss=1.2237  train_acc=0.4223  val_loss=1.1113  val_acc=0.4483  val_f1=0.4099
+epoch   4/30  train_loss=1.0496  train_acc=0.4869  val_loss=0.9462  val_acc=0.5117  val_f1=0.5282
+epoch   5/30  train_loss=0.8886  train_acc=0.5646  val_loss=0.8148  val_acc=0.5167  val_f1=0.5749
+epoch   6/30  train_loss=0.7470  train_acc=0.6423  val_loss=0.7017  val_acc=0.7033  val_f1=0.7198
+epoch   7/30  train_loss=0.6093  train_acc=0.7116  val_loss=0.6020  val_acc=0.7800  val_f1=0.7809
+epoch   8/30  train_loss=0.4978  train_acc=0.7897  val_loss=0.5157  val_acc=0.8083  val_f1=0.8080
+epoch   9/30  train_loss=0.3956  train_acc=0.8488  val_loss=0.4501  val_acc=0.8450  val_f1=0.8439
+epoch  10/30  train_loss=0.3227  train_acc=0.8758  val_loss=0.3951  val_acc=0.8617  val_f1=0.8622
+epoch  11/30  train_loss=0.2573  train_acc=0.9126  val_loss=0.3462  val_acc=0.8900  val_f1=0.8864
+epoch  12/30  train_loss=0.2107  train_acc=0.9244  val_loss=0.3160  val_acc=0.8800  val_f1=0.8818
+epoch  13/30  train_loss=0.1769  train_acc=0.9468  val_loss=0.2920  val_acc=0.8933  val_f1=0.8904
+epoch  14/30  train_loss=0.1478  train_acc=0.9552  val_loss=0.2760  val_acc=0.8967  val_f1=0.8987
+epoch  15/30  train_loss=0.1287  train_acc=0.9561  val_loss=0.2668  val_acc=0.9100  val_f1=0.9092
+epoch  16/30  train_loss=0.1080  train_acc=0.9704  val_loss=0.2508  val_acc=0.9300  val_f1=0.9262
+epoch  17/30  train_loss=0.0967  train_acc=0.9730  val_loss=0.2561  val_acc=0.8967  val_f1=0.9001
+epoch  18/30  train_loss=0.0860  train_acc=0.9759  val_loss=0.2378  val_acc=0.9300  val_f1=0.9277
+epoch  19/30  train_loss=0.0776  train_acc=0.9806  val_loss=0.2444  val_acc=0.9267  val_f1=0.9231
+epoch  20/30  train_loss=0.0709  train_acc=0.9869  val_loss=0.2306  val_acc=0.9233  val_f1=0.9211
+epoch  21/30  train_loss=0.0654  train_acc=0.9865  val_loss=0.2317  val_acc=0.9300  val_f1=0.9267
+epoch  22/30  train_loss=0.0613  train_acc=0.9899  val_loss=0.2243  val_acc=0.9367  val_f1=0.9332
+epoch  23/30  train_loss=0.0582  train_acc=0.9920  val_loss=0.2255  val_acc=0.9350  val_f1=0.9310
+epoch  24/30  train_loss=0.0557  train_acc=0.9903  val_loss=0.2232  val_acc=0.9350  val_f1=0.9310
+epoch  25/30  train_loss=0.0531  train_acc=0.9916  val_loss=0.2234  val_acc=0.9367  val_f1=0.9330
+epoch  26/30  train_loss=0.0516  train_acc=0.9924  val_loss=0.2208  val_acc=0.9350  val_f1=0.9310
+epoch  27/30  train_loss=0.0508  train_acc=0.9932  val_loss=0.2219  val_acc=0.9367  val_f1=0.9331
+epoch  28/30  train_loss=0.0501  train_acc=0.9928  val_loss=0.2218  val_acc=0.9333  val_f1=0.9296
+epoch  29/30  train_loss=0.0501  train_acc=0.9928  val_loss=0.2215  val_acc=0.9333  val_f1=0.9296
+epoch  30/30  train_loss=0.0498  train_acc=0.9928  val_loss=0.2216  val_acc=0.9333  val_f1=0.9296
+best chebykan: {'val_acc': 0.9366666666666666, 'val_f1': 0.9332495223834947, 'epoch': 22, 'params': 2450048, 'train_time_s': 5.0}
+
+===== jacobikan  (2,450,048 params) =====
+epoch   1/30  train_loss=1.4466  train_acc=0.3746  val_loss=1.1677  val_acc=0.5383  val_f1=0.5249
+epoch   2/30  train_loss=1.0946  train_acc=0.5203  val_loss=0.9590  val_acc=0.6050  val_f1=0.6106
+epoch   3/30  train_loss=0.9120  train_acc=0.5845  val_loss=0.8741  val_acc=0.6117  val_f1=0.5943
+epoch   4/30  train_loss=0.7275  train_acc=0.6715  val_loss=0.6689  val_acc=0.7433  val_f1=0.7380
+epoch   5/30  train_loss=0.5551  train_acc=0.7707  val_loss=0.5425  val_acc=0.7183  val_f1=0.7452
+epoch   6/30  train_loss=0.4250  train_acc=0.8349  val_loss=0.4554  val_acc=0.8233  val_f1=0.8258
+epoch   7/30  train_loss=0.3275  train_acc=0.8674  val_loss=0.4082  val_acc=0.8483  val_f1=0.8479
+epoch   8/30  train_loss=0.2631  train_acc=0.9029  val_loss=0.3441  val_acc=0.8817  val_f1=0.8807
+epoch   9/30  train_loss=0.2040  train_acc=0.9261  val_loss=0.3245  val_acc=0.9150  val_f1=0.9080
+epoch  10/30  train_loss=0.1634  train_acc=0.9459  val_loss=0.2966  val_acc=0.8900  val_f1=0.8885
+epoch  11/30  train_loss=0.1351  train_acc=0.9540  val_loss=0.2761  val_acc=0.9100  val_f1=0.9091
+epoch  12/30  train_loss=0.1125  train_acc=0.9637  val_loss=0.2691  val_acc=0.9167  val_f1=0.9161
+epoch  13/30  train_loss=0.0974  train_acc=0.9683  val_loss=0.2561  val_acc=0.9300  val_f1=0.9252
+epoch  14/30  train_loss=0.0815  train_acc=0.9747  val_loss=0.2523  val_acc=0.9250  val_f1=0.9247
+epoch  15/30  train_loss=0.0746  train_acc=0.9759  val_loss=0.2498  val_acc=0.9283  val_f1=0.9255
+epoch  16/30  train_loss=0.0641  train_acc=0.9793  val_loss=0.2459  val_acc=0.9267  val_f1=0.9246
+epoch  17/30  train_loss=0.0566  train_acc=0.9831  val_loss=0.2505  val_acc=0.9283  val_f1=0.9270
+epoch  18/30  train_loss=0.0527  train_acc=0.9861  val_loss=0.2373  val_acc=0.9350  val_f1=0.9326
+epoch  19/30  train_loss=0.0481  train_acc=0.9869  val_loss=0.2481  val_acc=0.9283  val_f1=0.9265
+epoch  20/30  train_loss=0.0445  train_acc=0.9890  val_loss=0.2405  val_acc=0.9233  val_f1=0.9213
+epoch  21/30  train_loss=0.0414  train_acc=0.9920  val_loss=0.2378  val_acc=0.9333  val_f1=0.9293
+epoch  22/30  train_loss=0.0391  train_acc=0.9911  val_loss=0.2350  val_acc=0.9333  val_f1=0.9305
+epoch  23/30  train_loss=0.0375  train_acc=0.9932  val_loss=0.2405  val_acc=0.9317  val_f1=0.9278
+epoch  24/30  train_loss=0.0366  train_acc=0.9899  val_loss=0.2361  val_acc=0.9267  val_f1=0.9250
+epoch  25/30  train_loss=0.0347  train_acc=0.9954  val_loss=0.2369  val_acc=0.9317  val_f1=0.9288
+epoch  26/30  train_loss=0.0336  train_acc=0.9949  val_loss=0.2346  val_acc=0.9350  val_f1=0.9317
+epoch  27/30  train_loss=0.0337  train_acc=0.9958  val_loss=0.2353  val_acc=0.9317  val_f1=0.9289
+epoch  28/30  train_loss=0.0327  train_acc=0.9954  val_loss=0.2362  val_acc=0.9333  val_f1=0.9302
+epoch  29/30  train_loss=0.0331  train_acc=0.9954  val_loss=0.2361  val_acc=0.9333  val_f1=0.9302
+epoch  30/30  train_loss=0.0328  train_acc=0.9958  val_loss=0.2361  val_acc=0.9333  val_f1=0.9302
+best jacobikan: {'val_acc': 0.935, 'val_f1': 0.9326029816318817, 'epoch': 18, 'params': 2450048, 'train_time_s': 6.3}
+
+===== fourierkan  (4,900,038 params) =====
+epoch   1/30  train_loss=0.9796  train_acc=0.5798  val_loss=0.5253  val_acc=0.7583  val_f1=0.7824
+epoch   2/30  train_loss=0.2674  train_acc=0.9037  val_loss=0.3522  val_acc=0.9000  val_f1=0.8916
+epoch   3/30  train_loss=0.1150  train_acc=0.9742  val_loss=0.2948  val_acc=0.9100  val_f1=0.9019
+epoch   4/30  train_loss=0.0639  train_acc=0.9844  val_loss=0.2716  val_acc=0.9233  val_f1=0.9193
+epoch   5/30  train_loss=0.0353  train_acc=0.9958  val_loss=0.2683  val_acc=0.9217  val_f1=0.9162
+epoch   6/30  train_loss=0.0224  train_acc=0.9983  val_loss=0.2509  val_acc=0.9267  val_f1=0.9188
+epoch   7/30  train_loss=0.0146  train_acc=0.9992  val_loss=0.2514  val_acc=0.9283  val_f1=0.9208
+epoch   8/30  train_loss=0.0106  train_acc=1.0000  val_loss=0.2457  val_acc=0.9267  val_f1=0.9184
+epoch   9/30  train_loss=0.0084  train_acc=1.0000  val_loss=0.2453  val_acc=0.9283  val_f1=0.9183
+epoch  10/30  train_loss=0.0067  train_acc=1.0000  val_loss=0.2489  val_acc=0.9300  val_f1=0.9214
+epoch  11/30  train_loss=0.0056  train_acc=1.0000  val_loss=0.2464  val_acc=0.9267  val_f1=0.9185
+epoch  12/30  train_loss=0.0048  train_acc=1.0000  val_loss=0.2469  val_acc=0.9300  val_f1=0.9213
+epoch  13/30  train_loss=0.0042  train_acc=1.0000  val_loss=0.2500  val_acc=0.9267  val_f1=0.9195
+epoch  14/30  train_loss=0.0038  train_acc=1.0000  val_loss=0.2483  val_acc=0.9300  val_f1=0.9215
+epoch  15/30  train_loss=0.0034  train_acc=1.0000  val_loss=0.2504  val_acc=0.9267  val_f1=0.9193
+epoch  16/30  train_loss=0.0031  train_acc=1.0000  val_loss=0.2495  val_acc=0.9283  val_f1=0.9201
+epoch  17/30  train_loss=0.0029  train_acc=1.0000  val_loss=0.2505  val_acc=0.9283  val_f1=0.9201
+epoch  18/30  train_loss=0.0027  train_acc=1.0000  val_loss=0.2500  val_acc=0.9283  val_f1=0.9201
+epoch  19/30  train_loss=0.0026  train_acc=1.0000  val_loss=0.2507  val_acc=0.9283  val_f1=0.9201
+epoch  20/30  train_loss=0.0024  train_acc=1.0000  val_loss=0.2507  val_acc=0.9283  val_f1=0.9201
+epoch  21/30  train_loss=0.0023  train_acc=1.0000  val_loss=0.2510  val_acc=0.9283  val_f1=0.9201
+epoch  22/30  train_loss=0.0023  train_acc=1.0000  val_loss=0.2513  val_acc=0.9283  val_f1=0.9201
+epoch  23/30  train_loss=0.0022  train_acc=1.0000  val_loss=0.2513  val_acc=0.9283  val_f1=0.9201
+epoch  24/30  train_loss=0.0021  train_acc=1.0000  val_loss=0.2515  val_acc=0.9283  val_f1=0.9201
+epoch  25/30  train_loss=0.0021  train_acc=1.0000  val_loss=0.2516  val_acc=0.9283  val_f1=0.9201
+epoch  26/30  train_loss=0.0021  train_acc=1.0000  val_loss=0.2515  val_acc=0.9283  val_f1=0.9201
+epoch  27/30  train_loss=0.0020  train_acc=1.0000  val_loss=0.2516  val_acc=0.9283  val_f1=0.9201
+epoch  28/30  train_loss=0.0020  train_acc=1.0000  val_loss=0.2516  val_acc=0.9283  val_f1=0.9201
+epoch  29/30  train_loss=0.0020  train_acc=1.0000  val_loss=0.2516  val_acc=0.9283  val_f1=0.9201
+epoch  30/30  train_loss=0.0020  train_acc=1.0000  val_loss=0.2516  val_acc=0.9283  val_f1=0.9201
+best fourierkan: {'val_acc': 0.93, 'val_f1': 0.9214172070431715, 'epoch': 10, 'params': 4900038, 'train_time_s': 8.0}
+
+===== wavkan  (1,960,076 params) =====
+epoch   1/30  train_loss=1.1243  train_acc=0.5245  val_loss=0.8066  val_acc=0.6667  val_f1=0.6857
+epoch   2/30  train_loss=0.6963  train_acc=0.7340  val_loss=0.6713  val_acc=0.8100  val_f1=0.8091
+epoch   3/30  train_loss=0.5277  train_acc=0.8429  val_loss=0.5441  val_acc=0.8700  val_f1=0.8680
+epoch   4/30  train_loss=0.4511  train_acc=0.8864  val_loss=0.5114  val_acc=0.8783  val_f1=0.8782
+epoch   5/30  train_loss=0.3865  train_acc=0.9164  val_loss=0.4704  val_acc=0.8967  val_f1=0.8931
+epoch   6/30  train_loss=0.3348  train_acc=0.9383  val_loss=0.4335  val_acc=0.8983  val_f1=0.8971
+epoch   7/30  train_loss=0.2946  train_acc=0.9557  val_loss=0.4194  val_acc=0.9200  val_f1=0.9154
+epoch   8/30  train_loss=0.2668  train_acc=0.9641  val_loss=0.3962  val_acc=0.9383  val_f1=0.9309
+epoch   9/30  train_loss=0.2521  train_acc=0.9730  val_loss=0.4213  val_acc=0.9133  val_f1=0.9073
+epoch  10/30  train_loss=0.2441  train_acc=0.9696  val_loss=0.3711  val_acc=0.9317  val_f1=0.9250
+epoch  11/30  train_loss=0.2211  train_acc=0.9802  val_loss=0.3872  val_acc=0.9367  val_f1=0.9304
+epoch  12/30  train_loss=0.2064  train_acc=0.9827  val_loss=0.3802  val_acc=0.9317  val_f1=0.9236
+epoch  13/30  train_loss=0.1856  train_acc=0.9894  val_loss=0.3547  val_acc=0.9383  val_f1=0.9288
+epoch  14/30  train_loss=0.1836  train_acc=0.9878  val_loss=0.3333  val_acc=0.9400  val_f1=0.9318
+epoch  15/30  train_loss=0.1792  train_acc=0.9928  val_loss=0.3386  val_acc=0.9533  val_f1=0.9440
+epoch  16/30  train_loss=0.1631  train_acc=0.9949  val_loss=0.3427  val_acc=0.9433  val_f1=0.9348
+epoch  17/30  train_loss=0.1616  train_acc=0.9937  val_loss=0.3273  val_acc=0.9517  val_f1=0.9433
+epoch  18/30  train_loss=0.1577  train_acc=0.9975  val_loss=0.3244  val_acc=0.9383  val_f1=0.9310
+epoch  19/30  train_loss=0.1508  train_acc=0.9954  val_loss=0.3259  val_acc=0.9417  val_f1=0.9291
+epoch  20/30  train_loss=0.1494  train_acc=0.9970  val_loss=0.3172  val_acc=0.9417  val_f1=0.9329
+epoch  21/30  train_loss=0.1406  train_acc=0.9979  val_loss=0.3230  val_acc=0.9417  val_f1=0.9318
+epoch  22/30  train_loss=0.1374  train_acc=0.9954  val_loss=0.3169  val_acc=0.9417  val_f1=0.9328
+epoch  23/30  train_loss=0.1356  train_acc=0.9983  val_loss=0.3091  val_acc=0.9433  val_f1=0.9334
+epoch  24/30  train_loss=0.1365  train_acc=0.9992  val_loss=0.3160  val_acc=0.9500  val_f1=0.9425
+epoch  25/30  train_loss=0.1328  train_acc=0.9992  val_loss=0.3156  val_acc=0.9383  val_f1=0.9284
+epoch  26/30  train_loss=0.1333  train_acc=0.9996  val_loss=0.3124  val_acc=0.9433  val_f1=0.9316
+epoch  27/30  train_loss=0.1275  train_acc=0.9992  val_loss=0.3138  val_acc=0.9433  val_f1=0.9339
+epoch  28/30  train_loss=0.1280  train_acc=0.9987  val_loss=0.3101  val_acc=0.9450  val_f1=0.9362
+epoch  29/30  train_loss=0.1265  train_acc=0.9992  val_loss=0.3149  val_acc=0.9417  val_f1=0.9320
+epoch  30/30  train_loss=0.1279  train_acc=0.9992  val_loss=0.3108  val_acc=0.9467  val_f1=0.9382
+best wavkan: {'val_acc': 0.9533333333333334, 'val_f1': 0.9439513595972374, 'epoch': 15, 'params': 1960076, 'train_time_s': 38.1}
+
+===== relukan  (4,043,494 params) =====
+epoch   1/30  train_loss=1.6202  train_acc=0.2838  val_loss=1.4409  val_acc=0.4133  val_f1=0.4248
+epoch   2/30  train_loss=1.2735  train_acc=0.4054  val_loss=1.0411  val_acc=0.4567  val_f1=0.4890
+epoch   3/30  train_loss=0.9236  train_acc=0.5583  val_loss=0.7447  val_acc=0.6733  val_f1=0.6832
+epoch   4/30  train_loss=0.5865  train_acc=0.7031  val_loss=0.5280  val_acc=0.6650  val_f1=0.7188
+epoch   5/30  train_loss=0.3588  train_acc=0.7952  val_loss=0.4584  val_acc=0.8017  val_f1=0.8025
+epoch   6/30  train_loss=0.2690  train_acc=0.8361  val_loss=0.3861  val_acc=0.8500  val_f1=0.8566
+epoch   7/30  train_loss=0.1692  train_acc=0.9177  val_loss=0.3389  val_acc=0.8650  val_f1=0.8698
+epoch   8/30  train_loss=0.1133  train_acc=0.9371  val_loss=0.2867  val_acc=0.8850  val_f1=0.8879
+epoch   9/30  train_loss=0.0876  train_acc=0.9552  val_loss=0.3350  val_acc=0.8917  val_f1=0.8901
+epoch  10/30  train_loss=0.0628  train_acc=0.9704  val_loss=0.3198  val_acc=0.9117  val_f1=0.9068
+epoch  11/30  train_loss=0.0459  train_acc=0.9772  val_loss=0.3272  val_acc=0.8867  val_f1=0.8851
+epoch  12/30  train_loss=0.0466  train_acc=0.9730  val_loss=0.2716  val_acc=0.9167  val_f1=0.9143
+epoch  13/30  train_loss=0.0358  train_acc=0.9802  val_loss=0.2841  val_acc=0.8883  val_f1=0.8903
+epoch  14/30  train_loss=0.0412  train_acc=0.9742  val_loss=0.3321  val_acc=0.9200  val_f1=0.9148
+epoch  15/30  train_loss=0.0417  train_acc=0.9768  val_loss=0.3057  val_acc=0.8933  val_f1=0.8920
+epoch  16/30  train_loss=0.0208  train_acc=0.9911  val_loss=0.3068  val_acc=0.9167  val_f1=0.9120
+epoch  17/30  train_loss=0.0102  train_acc=0.9987  val_loss=0.3124  val_acc=0.9217  val_f1=0.9175
+epoch  18/30  train_loss=0.0072  train_acc=1.0000  val_loss=0.2877  val_acc=0.9117  val_f1=0.9082
+epoch  19/30  train_loss=0.0055  train_acc=0.9996  val_loss=0.3242  val_acc=0.9217  val_f1=0.9174
+epoch  20/30  train_loss=0.0051  train_acc=1.0000  val_loss=0.3014  val_acc=0.9167  val_f1=0.9117
+epoch  21/30  train_loss=0.0037  train_acc=1.0000  val_loss=0.3064  val_acc=0.9183  val_f1=0.9139
+epoch  22/30  train_loss=0.0032  train_acc=1.0000  val_loss=0.3085  val_acc=0.9183  val_f1=0.9130
+epoch  23/30  train_loss=0.0030  train_acc=1.0000  val_loss=0.3047  val_acc=0.9167  val_f1=0.9127
+epoch  24/30  train_loss=0.0028  train_acc=1.0000  val_loss=0.3197  val_acc=0.9150  val_f1=0.9099
+epoch  25/30  train_loss=0.0027  train_acc=1.0000  val_loss=0.3031  val_acc=0.9183  val_f1=0.9130
+epoch  26/30  train_loss=0.0025  train_acc=1.0000  val_loss=0.3170  val_acc=0.9183  val_f1=0.9130
+epoch  27/30  train_loss=0.0025  train_acc=1.0000  val_loss=0.3113  val_acc=0.9167  val_f1=0.9116
+epoch  28/30  train_loss=0.0025  train_acc=1.0000  val_loss=0.3116  val_acc=0.9167  val_f1=0.9116
+epoch  29/30  train_loss=0.0024  train_acc=1.0000  val_loss=0.3119  val_acc=0.9167  val_f1=0.9116
+epoch  30/30  train_loss=0.0024  train_acc=1.0000  val_loss=0.3122  val_acc=0.9167  val_f1=0.9116
+best relukan: {'val_acc': 0.9216666666666666, 'val_f1': 0.9175489518518058, 'epoch': 17, 'params': 4043494, 'train_time_s': 7.1}
+
+===== rationalkan  (3,430,086 params) =====
+epoch   1/30  train_loss=1.5433  train_acc=0.3142  val_loss=1.3327  val_acc=0.4050  val_f1=0.4278
+epoch   2/30  train_loss=1.2339  train_acc=0.4451  val_loss=1.0845  val_acc=0.4917  val_f1=0.5121
+epoch   3/30  train_loss=0.9593  train_acc=0.5633  val_loss=0.8426  val_acc=0.6083  val_f1=0.6269
+epoch   4/30  train_loss=0.7194  train_acc=0.6765  val_loss=0.7096  val_acc=0.6700  val_f1=0.7083
+epoch   5/30  train_loss=0.5470  train_acc=0.7335  val_loss=0.5754  val_acc=0.7683  val_f1=0.7624
+epoch   6/30  train_loss=0.4203  train_acc=0.8133  val_loss=0.4790  val_acc=0.7917  val_f1=0.7973
+epoch   7/30  train_loss=0.3652  train_acc=0.8332  val_loss=0.4922  val_acc=0.6867  val_f1=0.7277
+epoch   8/30  train_loss=0.2845  train_acc=0.8767  val_loss=0.4478  val_acc=0.7883  val_f1=0.7870
+epoch   9/30  train_loss=0.2376  train_acc=0.9024  val_loss=0.3610  val_acc=0.8633  val_f1=0.8620
+epoch  10/30  train_loss=0.1949  train_acc=0.9084  val_loss=0.3520  val_acc=0.8433  val_f1=0.8467
+epoch  11/30  train_loss=0.1805  train_acc=0.9088  val_loss=0.3761  val_acc=0.8617  val_f1=0.8535
+epoch  12/30  train_loss=0.1479  train_acc=0.9421  val_loss=0.3311  val_acc=0.8700  val_f1=0.8643
+epoch  13/30  train_loss=0.1175  train_acc=0.9557  val_loss=0.3522  val_acc=0.8883  val_f1=0.8759
+epoch  14/30  train_loss=0.1153  train_acc=0.9497  val_loss=0.3335  val_acc=0.8967  val_f1=0.8869
+epoch  15/30  train_loss=0.0914  train_acc=0.9654  val_loss=0.3115  val_acc=0.9033  val_f1=0.8917
+epoch  16/30  train_loss=0.0795  train_acc=0.9666  val_loss=0.3157  val_acc=0.8950  val_f1=0.8855
+epoch  17/30  train_loss=0.0682  train_acc=0.9742  val_loss=0.3114  val_acc=0.8833  val_f1=0.8760
+epoch  18/30  train_loss=0.0626  train_acc=0.9751  val_loss=0.3488  val_acc=0.8800  val_f1=0.8673
+epoch  19/30  train_loss=0.0601  train_acc=0.9797  val_loss=0.3084  val_acc=0.9067  val_f1=0.8926
+epoch  20/30  train_loss=0.0492  train_acc=0.9873  val_loss=0.3000  val_acc=0.9050  val_f1=0.8915
+epoch  21/30  train_loss=0.0479  train_acc=0.9810  val_loss=0.3061  val_acc=0.8917  val_f1=0.8857
+epoch  22/30  train_loss=0.0483  train_acc=0.9806  val_loss=0.3144  val_acc=0.8950  val_f1=0.8852
+epoch  23/30  train_loss=0.0386  train_acc=0.9894  val_loss=0.2954  val_acc=0.9133  val_f1=0.9006
+epoch  24/30  train_loss=0.0340  train_acc=0.9945  val_loss=0.2995  val_acc=0.9117  val_f1=0.8994
+epoch  25/30  train_loss=0.0322  train_acc=0.9945  val_loss=0.3133  val_acc=0.9067  val_f1=0.8944
+epoch  26/30  train_loss=0.0313  train_acc=0.9941  val_loss=0.3192  val_acc=0.9050  val_f1=0.8923
+epoch  27/30  train_loss=0.0304  train_acc=0.9966  val_loss=0.2998  val_acc=0.9050  val_f1=0.8938
+epoch  28/30  train_loss=0.0303  train_acc=0.9932  val_loss=0.3074  val_acc=0.9133  val_f1=0.8996
+epoch  29/30  train_loss=0.0287  train_acc=0.9962  val_loss=0.3105  val_acc=0.9100  val_f1=0.8966
+epoch  30/30  train_loss=0.0291  train_acc=0.9966  val_loss=0.3101  val_acc=0.9100  val_f1=0.8966
+best rationalkan: {'val_acc': 0.9133333333333333, 'val_f1': 0.9006182869408645, 'epoch': 23, 'params': 3430086, 'train_time_s': 40.8}
+
+model               params  best_ep  val_acc   val_f1  time(s)
+wavkan           1,960,076       15   0.9533   0.9440     38.1
+fasterkan        3,935,300       17   0.9500   0.9423      5.7
+efficientkan     4,899,840       12   0.9433   0.9396      9.6
+chebykan         2,450,048       22   0.9367   0.9332      5.0
+fastkan          4,425,354       20   0.9350   0.9314      6.6
+bsrbf_kan        4,425,284       11   0.9350   0.9296     16.2
+jacobikan        2,450,048       18   0.9350   0.9326      6.3
+fourierkan       4,900,038       10   0.9300   0.9214      8.0
+relukan          4,043,494       17   0.9217   0.9175      7.1
+rationalkan      3,430,086       23   0.9133   0.9006     40.8
